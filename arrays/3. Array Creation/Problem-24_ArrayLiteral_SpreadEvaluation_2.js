@@ -70,3 +70,5 @@ Reference #C
 */
 
 console.log(result);  // thus, it will print [1, 2, 100, 3, 4, 200]
+console.log(result["1"] === result[1]); 
+console.log(result[-1]); 
